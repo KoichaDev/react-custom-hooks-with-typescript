@@ -3,6 +3,7 @@ import UseUpdateEffect from './components/UseUpdateEffect.component';
 import Array from './components/Array.component';
 import Previous from './components/Previous.component';
 import Async from './components/Async.component';
+import Fetch from './components/Fetch.component';
 import './App.css';
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
 			{/* <UseUpdateEffect /> */}
 			{/* <Array /> */}
 			{/* <Previous /> */}
-			<Async />
+			{/* <Async /> */}
+			<Fetch />
 		</>
 	);
 }
